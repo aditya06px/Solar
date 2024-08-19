@@ -1,0 +1,26 @@
+.carousel .thumbs-wrapper {
+  display: none; /* to remove boxes below*/
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none; /* to remove arrows on both sides*/
+}
+
+/* .carousel-container {
+  height: calc(100vw * 9 / 16); /* Height based on a 16:9 aspect ratio */
+/* }  */
+
+
+@media (min-width: 768px) { 
+
+.carousel-container {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 80%;
+}
+
+.carousel-container img {
+  height: 400px;
+}
+
+}

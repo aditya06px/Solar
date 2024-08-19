@@ -1,0 +1,26 @@
+body{
+  font-family: Open Sans, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+    height: 100vh;
+}
+
+
+
+  /* 
+       for mobile screens 
+       width: 80%
+
+        for laptop screens 
+
+
+        width: 80%;
+        max-width: 1056px;
+  */
