@@ -1,4 +1,6 @@
 .service-section-container {
+    width: 80%;
+    margin: 0 auto;
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -55,12 +57,15 @@
 @media (min-width: 768px) { 
 
     .service-section-container {
+        width: 80%;
+        max-width: 1200px;
         margin-top: 4rem;
         margin-bottom: 4rem;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         gap: 4rem;
+        border: 2px solid red;
     }
 
     .service-section-container .circle-section:last-child {

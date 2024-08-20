@@ -9,6 +9,8 @@ import OurServices from "./pages/OurServices"
 import './App.css'
 import  CarouselComponent  from "../src/Components/Carousel/CarouselComponent"
 import ServiceSection from "./Components/ServiceSection/ServiceSection"
+import AboutUsSection from "./Components/AboutUsSection/AboutUsSection"
+import ContactUsForm from "./Components/ContactUsForm/ContactUsForm"
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
       <Navbar activePage={activePage} handleItemClick={handleItemClick} />
       <CarouselComponent />
       <ServiceSection />
+      <AboutUsSection />
+      <ContactUsForm />
       <Routes>
         <Route path="/" element={<Home/>} /> 
         <Route path="/about" element={<AboutUs />} /> 
