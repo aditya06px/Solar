@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import './CarouselComponent.css';
-import Solar1 from "../../assets/solar1.svg"
-import Solar2 from "../../assets/solar2.svg"
-import Solar3 from "../../assets/solar3.svg"
+import Solar1 from "../../assets/carousel/carousel1.jpg"
+import Solar2 from "../../assets/carousel/carousel2.jpg"
+import Solar3 from "../../assets/carousel/carousel3.jpg"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
+import './CarouselComponent.css';
 
 function CarouselComponent() {
     return (
@@ -16,7 +16,8 @@ function CarouselComponent() {
         showThumbs={false} 
         showStatus={false} 
         stopOnHover={true} 
-    >
+        >
+            
             <div>
                 <img src={Solar1} />
             </div>

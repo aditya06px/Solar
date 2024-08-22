@@ -1,0 +1,28 @@
+.address-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.address-details {
+    
+}
+
+.address-details h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 62.65px;
+    margin-left: 2.8rem;
+}
+
+.address-details ul li {
+    display: flex;
+    gap: 1rem;
+}
+
+.address-details span {
+    margin-left: 1rem;
+}
+
+.address-details li {
+    margin-top: 1rem;
+}
