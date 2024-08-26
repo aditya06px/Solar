@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.service-hero-section h1 {
+  font-size: 3rem;
+  font-family: "Happy Monkey", system-ui;
+  font-style: normal;
+  padding: 0 0.9rem;
+}
+
+.service-hero-section p{
+    margin-top: 0.8rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.77;
+    padding: 0 0.9rem;
+}
+
+@media (min-width: 768px) {  
+
+    .service-hero-section-content {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    .service-hero-section h1 {
+        font-size: 3rem;
+        max-width: 500px;
+    }
+
+     .service-hero-section p {
+        font-size: 1.2rem;
+        max-width: 500px;
+     }
+     
+     .service-hero-section img{
+        max-height: 800px;
+        width: 100%;
+     }
+}

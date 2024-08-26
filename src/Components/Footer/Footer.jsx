@@ -59,7 +59,7 @@ function Footer() {
                 <div className='footer-quick-links'>
                     <h5> Quick Links </h5>
                     <ul>
-                        <li>Fuel Conversion & Cost Saving <br/> Calculator</li>
+                        <li>Solar Calculator</li>
 
                         <li>Client Titles</li>
                         <li>Contact</li>

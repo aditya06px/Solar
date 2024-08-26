@@ -1,9 +1,15 @@
 import React from 'react'
+import "./OurServices.css"
+import ServiceHeroSection from "../Components/ServiceHeroSection/ServiceHeroSection"
+import MainServiceSection from "../Components/MainServiceSection/MainServiceSection"
+import ServiceMaintenanceCard from "../Components/AboutUsCard/ServiceMaintenanceCard"
 
 function OurServices() {
   return (
-    <div>
-      <h1> our services</h1>
+    <div className='our-service-page'>
+      <ServiceHeroSection />
+      <MainServiceSection />
+      <ServiceMaintenanceCard />
     </div>
   )
 }

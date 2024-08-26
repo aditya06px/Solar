@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutUsImage from "../../assets/about-us.png"
-import "./AboutUs.css"
+import AboutUsImage from "../../assets/home-page-team-img.jpg"
+import "./AboutUsSection.css"
 
 function AboutUsSection() {
     return (

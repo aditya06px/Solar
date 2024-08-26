@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
-import Solar1 from "../../assets/carousel/carousel1.jpg"
-import Solar2 from "../../assets/carousel/carousel2.jpg"
+import Solar1 from "../../assets/carousel/carousel2.jpg"
+import Solar2 from "../../assets/carousel/carousel1.jpg"
 import Solar3 from "../../assets/carousel/carousel3.jpg"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
