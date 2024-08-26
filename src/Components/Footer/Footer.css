@@ -57,8 +57,8 @@
     margin-left: 43px;
 }
 
-.office-details h5,
-.footer-quick-links h5 {
+.office-details h3,
+.footer-quick-links h3 {
     font-weight: 600;
     size: 25px;
     line-height: 31.33px;
@@ -96,7 +96,7 @@
         margin-top: 120px;
     }
 
-    .footer-quick-links h5 {
+    .footer-quick-links h3 {
         margin-left: 43px;
     }
 

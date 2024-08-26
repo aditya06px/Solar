@@ -7,6 +7,7 @@
     text-align: left;
     padding: 20px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     
   }
   
@@ -52,6 +53,7 @@
         align-items: flex-start;
         text-align: left;
         gap: 4rem;
+        margin-top: 4rem;
       }
     
       .AboutUs-content {

@@ -7,8 +7,8 @@ function Home() {
   return (
     <div className='home-container'>
       <CarouselComponent />
-      <ServiceSection />
       <AboutUsSection />
+      <ServiceSection />
     </div>
   )
 }

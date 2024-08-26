@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-// import NavbarLogo from "../../assets/logo.png"
 import NavbarLogo from "../../assets/logo-svg.svg"
 import "./Navbar.css"
 

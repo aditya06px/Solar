@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import "./ContactUsForm.css"
 
 function ContactUsForm() {
@@ -8,22 +8,23 @@ function ContactUsForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // emailjs.sendForm(
-        //   'service_8co694f',      // Replace with your Service ID
-        //   'template_vafufv4',     // Replace with your Template ID
-        //   form.current,
-        //   '57hdkNVG50aTphqNf'          // Replace with your User ID
-        // )
-        //   .then((response) => {
-        //     alert('Your message has been sent successfully!');
-        //     form.current.reset();
-        //   })
-        //   .catch((error) => {
-        //     console.log(error)
-        //     alert('There was an error sending your message. Please try again.');
-        //   });
+        const formData = new FormData(form.current);
 
-        alert("success");
+        console.log(form)   
+        emailjs.sendForm(
+          'service_t2b5o8e',      // Replace with your Service ID
+          'template_vafufv4',     // Replace with your Template ID
+          form.current,
+          '57hdkNVG50aTphqNf'          // Replace with your User ID
+        )
+          .then((response) => {
+            alert('Your message has been sent successfully!');
+            form.current.reset();
+          })
+          .catch((error) => {
+            console.log(error)
+            alert('There was an error sending your message. Please try again.');
+          });
     };
 
     return (
@@ -37,8 +38,8 @@ function ContactUsForm() {
                 </div>
                 
                 <div className="contact-us-form-group">
-                    <input placeholder='Email Address' type="email" id="email"
-                        name="email"
+                    <input placeholder='Email Address' type="email" id="to_name"
+                        name="to_name"
                         required />
                 </div>
                 

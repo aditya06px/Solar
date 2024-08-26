@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { NavLink} from 'react-router-dom';
 import Call  from "../../assets/footer-icons/call.png"
 import Deskphone from "../../assets/footer-icons/deskphone.png"
 import Location from "../../assets/footer-icons/location-on.png"
@@ -9,6 +10,7 @@ import LogoMobile from "../../assets/footer-logo/logo-mobile-footer.png"
 import LogoDesktop from "../../assets/footer-logo/logo-pc-footer.png"
 
 function Footer() {
+
     return (
         <footer className='footer'>
             <div className='footer-container'>
@@ -26,7 +28,7 @@ function Footer() {
 
                  <div className='office-details'>
     
-                    <h5> Office </h5>
+                    <h3> Office </h3>
                     <ul>
                         <li>
                             <img className='footer-icon flex-start' src={Location} alt='Company Logo' />
@@ -45,7 +47,7 @@ function Footer() {
 
                         <li>
                             <img className='footer-icon' src={Mail} alt='Company Logo' />
-                            <span>office@ajinkyainfra.in</span>
+                            <span>info@ajinkyainfra.in</span>
                         </li>
                         <li>
                             <img className='footer-icon flex-start'  src={Schedule} alt='Company Logo' />
@@ -57,13 +59,18 @@ function Footer() {
 
               
                 <div className='footer-quick-links'>
-                    <h5> Quick Links </h5>
+                    <h3> Quick Links </h3>
                     <ul>
                         <li>Solar Calculator</li>
 
                         <li>Client Titles</li>
-                        <li>Contact</li>
-                        <li>Site Map</li>
+                       <NavLink to="/contact"> 
+                                <li> Contact</li>
+                       </NavLink> 
+
+                       <a href="https://ajinkyainfra.in/sitemap.xml" target="_blank" rel="noopener noreferrer">
+                                Site Map
+                            </a>
 
                     </ul>
                 </div>
