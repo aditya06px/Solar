@@ -1,15 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { useState } from 'react'
-import Navbar from "./Components/Navbar/Navbar"
-import Footer from "./Components/Footer/Footer"
-import Home from "./pages/Home"
-import AboutUs from "./pages/AboutUs"
-import ContactUs from "./pages/ContactUs"
-import OurServices from "./pages/OurServices"
+import Navbar from "./Components/Navbar/Navbar.jsx"
+import Footer from "./Components/Footer/Footer.jsx"
+import Home from "./pages/Home.jsx"
+import AboutUs from "./pages/AboutUs.jsx"
+import ContactUs from "./pages/ContactUs.jsx"
+import OurServices from "./pages/OurServices.jsx"
 import './App.css'
+import Sitemap from "./pages/Sitemap.jsx"
 
-import ContactUsForm from "./Components/ContactUsForm/ContactUsForm"
-import AddressComponent from "./Components/AddressComponent/AddressComponent"
 
 function App() {
 
@@ -17,19 +16,20 @@ function App() {
 
   const handleItemClick = (page) => {
     setActivePage(page);
-};
+  };
   return (
     <>
-    <BrowserRouter>
-      <Navbar activePage={activePage} handleItemClick={handleItemClick} />
-      <Routes>
-        <Route path="/" element={<Home/>} /> 
-        <Route path="/about" element={<AboutUs />} /> 
-        <Route path="/contact" element={<ContactUs />} /> 
-        <Route path="/service" element={<OurServices />} /> 
-      </Routes>
-      <Footer activePage={activePage} handleItemClick={handleItemClick} />
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar activePage={activePage} handleItemClick={handleItemClick} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/service" element={<OurServices />} />
+          <Route path="/sitemap" element={<Sitemap />} />
+        </Routes>
+        <Footer activePage={activePage} handleItemClick={handleItemClick} />
+      </BrowserRouter>
     </>
   )
 }

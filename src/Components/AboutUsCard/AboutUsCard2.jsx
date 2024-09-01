@@ -1,15 +1,15 @@
 import React from 'react'
 import AboutUsImage from "../../assets/about-us/graph-img.jpg"
-import "./AboutUsCard1.css"
+import "./AboutUsCard2.css"
 
 function AboutUsCard2() {
   return (
-    <div className='about-us-card1 about-us-card2'>
-      <div className='our-mission-img-container'> 
+    <div className='about-us-card2 '>
+      <div className='our-mission-img-container2'> 
       <img className='our-mission-img our-mission-img-card2' src={AboutUsImage} alt='our-mission-img'/>
       </div>
 
-      <div className='about-us-card1-content'> 
+      <div className='about-us-card2-content'> 
       <h2>Why Choose Us </h2>
       <p> Choosing Ajinkya Infra means choosing peace of mind. Our certified
  team is known for its professionalism 

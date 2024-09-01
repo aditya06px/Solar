@@ -1,8 +1,8 @@
 import React from 'react'
 import "./OurServices.css"
-import ServiceHeroSection from "../Components/ServiceHeroSection/ServiceHeroSection"
-import MainServiceSection from "../Components/MainServiceSection/MainServiceSection"
-import ServiceMaintenanceCard from "../Components/AboutUsCard/ServiceMaintenanceCard"
+import ServiceHeroSection from "../Components/ServiceHeroSection/ServiceHeroSection.jsx"
+import MainServiceSection from "../Components/MainServiceSection/MainServiceSection.jsx"
+import ServiceMaintenanceCard from "../Components/AboutUsCard/ServiceMaintenanceCard.jsx"
 
 function OurServices() {
   return (

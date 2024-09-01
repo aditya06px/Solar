@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
-import AddressComponent from "../Components/AddressComponent/AddressComponent"
-import ContactUsForm from "../Components/ContactUsForm/ContactUsForm"
-import ContactUsHeroSection from "../Components/ContactUsHeroSection/ContactUsHeroSection"
+import AddressComponent from "../Components/AddressComponent/AddressComponent.jsx"
+import ContactUsForm from "../Components/ContactUsForm/ContactUsForm.jsx"
+import ContactUsHeroSection from "../Components/ContactUsHeroSection/ContactUsHeroSection.jsx"
 import "./ContactUs.css"
 
 function ContactUs() {

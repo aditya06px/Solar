@@ -27,7 +27,10 @@
 
     .about-us-hero-section-container {
         display: flex;
-        justify-content: center;    
+        justify-content: center;  
+        gap: 3rem; 
+        max-width: 1200px;
+        margin: 0 auto;    
     }
 
     .about-us-hero-section-content {

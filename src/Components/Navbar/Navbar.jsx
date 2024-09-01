@@ -32,7 +32,7 @@ function Navbar( { activePage, handleItemClick } ) {
             handleItemClick('Contact');
             break;
           default:
-            handleItemClick('Home');
+            handleItemClick('');
         }
       }, [location.pathname, handleItemClick]);
 
@@ -85,6 +85,8 @@ function Navbar( { activePage, handleItemClick } ) {
                         Contact
                     </NavLink>
                 </li>
+
+
             </ul>
         </div>
 

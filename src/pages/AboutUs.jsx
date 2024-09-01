@@ -1,7 +1,7 @@
 import React from 'react'
-import AboutUsHeroSection from "../Components/AboutUsHeroSection/AboutUsHeroSection"
-import AboutUsCard1 from "../Components/AboutUsCard/AboutUsCard1"
-import AboutUsCard2 from "../Components/AboutUsCard/AboutUsCard2"
+import AboutUsHeroSection from "../Components/AboutUsHeroSection/AboutUsHeroSection.jsx"
+import AboutUsCard1 from "../Components/AboutUsCard/AboutUsCard1.jsx"
+import AboutUsCard2 from "../Components/AboutUsCard/AboutUsCard2.jsx"
 
 import "./AboutUs.css"
 

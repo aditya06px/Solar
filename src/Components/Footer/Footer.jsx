@@ -68,9 +68,10 @@ function Footer() {
                                 <li> Contact</li>
                        </NavLink> 
 
-                       <a href="https://ajinkyainfra.in/sitemap.xml" target="_blank" rel="noopener noreferrer">
-                                Site Map
-                            </a>
+                       <NavLink to="/sitemap"> 
+                                <li> Site Map</li>
+                       </NavLink>  
+                            
 
                     </ul>
                 </div>

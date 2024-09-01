@@ -1,4 +1,4 @@
-.about-us-card1 {
+.about-us-card2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,18 +8,18 @@
 }
 
 
-.about-us-card1-content {
+.about-us-card2-content {
     margin-top: 0.9rem;
 }
 
-.about-us-card1-content h2 {
+.about-us-card2-content h2 {
     font-size: 1.625rem;
     font-weight: 600;
     line-height: 1.38;
     font-family: sans-serif;
 }
 
-.about-us-card1-content p {
+.about-us-card2-content p {
     margin-top: 0.8rem;
     font-size: 1.125rem;
     font-weight: 300;
@@ -28,14 +28,14 @@
 
 
 @media (min-width: 968px) {
-    .about-us-card1 {
-        flex-direction: row;
+    .about-us-card2 {
+        flex-direction: row-reverse;
         justify-content: space-between;
-        max-width:1200px;
-
+        margin-top: 4rem;
+        max-width: 1200px;
     }
 
-    .about-us-card1-content {
+    .about-us-card2-content {
         margin-top: 0;
         max-width: 555px;
     }
@@ -49,22 +49,9 @@
         flex: 1;
     }
 
- 
-    /* service page maintenance guy section  */
-    .service-maintenance-card{
-        display: flex;
-        justify-content: center;
-    }
-    .service-maintenance-card .our-mission-img-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .our-mission-img-card2 {
+        margin-left: auto;
     }
 
-    .maintenance-guy-img {
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        object-fit: cover; 
-    }
+   
 }

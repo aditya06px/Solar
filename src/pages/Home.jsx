@@ -1,7 +1,7 @@
 import React from 'react'
-import  CarouselComponent  from "../Components/Carousel/CarouselComponent"
-import ServiceSection from "../Components/ServiceSection/ServiceSection"
-import AboutUsSection from "../Components/AboutUsSection/AboutUsSection"
+import  CarouselComponent  from "../Components/Carousel/CarouselComponent.jsx"
+import ServiceSection from "../Components/ServiceSection/ServiceSection.jsx"
+import AboutUsSection from "../Components/AboutUsSection/AboutUsSection.jsx"
 
 function Home() {
   return (
