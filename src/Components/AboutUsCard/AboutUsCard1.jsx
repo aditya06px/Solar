@@ -6,7 +6,7 @@ function AboutUsCard1() {
   return (
     <div className='about-us-card1'>
       <div className='our-mission-img-container'> 
-      <img className='our-mission-img' src={AboutUsImage} alt='our-mission-img'/>
+      <img className='our-mission-img' src={AboutUsImage} alt='Our mission for solar installations in Kolhapur'/>
       </div>
 
       <div className='about-us-card1-content'> 

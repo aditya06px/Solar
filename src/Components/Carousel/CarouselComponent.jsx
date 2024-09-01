@@ -19,13 +19,13 @@ function CarouselComponent() {
         >
             
             <div>
-                <img src={Solar1} />
+                <img src={Solar1} alt='Ajinkya Infra solar installation in Kolhapur - system view 1' />
             </div>
             <div>
-                <img src={Solar2} />
+                <img src={Solar2}  alt='Ajinkya Infra solar installation in Kolhapur - system view 2'/>
             </div>
             <div>
-                <img src={Solar3} />
+                <img src={Solar3}  alt='Ajinkya Infra solar installation in Kolhapur - system view 3'/>
             </div>
         </Carousel>
     );

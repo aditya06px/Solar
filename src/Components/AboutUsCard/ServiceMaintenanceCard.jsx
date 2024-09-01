@@ -6,7 +6,7 @@ function ServiceMaintenanceCard() {
   return (
     <div className='about-us-card1 service-maintenance-card'>
     <div className='our-mission-img-container'> 
-    <img className='our-mission-img maintenance-guy-img' src={MaintenanceGuy} alt='our-mission-img'/>
+    <img className='our-mission-img maintenance-guy-img' src={MaintenanceGuy} alt='maintenance for solar installation in kolhapur'/>
     </div>
 
     <div className='about-us-card1-content'> 

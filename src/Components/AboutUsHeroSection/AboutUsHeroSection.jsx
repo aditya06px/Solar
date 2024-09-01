@@ -12,7 +12,7 @@ function AboutUsHeroSection() {
         </div>
 
         <div className='about-us-company-img-container'>
-          <img src={AboutUs} alt='Company photo' />
+          <img src={AboutUs} alt='Ajinkya Infra company team - solar energy solutions in Kolhapur' />
         </div>
 
       </section>

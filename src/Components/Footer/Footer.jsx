@@ -21,7 +21,7 @@ function Footer() {
                         src={LogoDesktop}
                         srcSet={`${LogoMobile} 480w, ${LogoDesktop} 768w`}
                         sizes="(max-width: 480px) 100vw"
-                        alt='Company Logo'
+                        alt='Ajinkya Infra company logo'
                     />
                     <p style={{textAlign: 'end' , fontSize: '15px'}}> by Ajinkya Enterprises </p>
                 </div>
@@ -31,7 +31,7 @@ function Footer() {
                     <h3> Office </h3>
                     <ul>
                         <li>
-                            <img className='footer-icon flex-start' src={Location} alt='Company Logo' />
+                            <img className='footer-icon flex-start' src={Location} alt='Ajinkya Infra address in Kolhapur' />
                             <span> 
                             <a href="https://www.google.com/maps/search/?api=1&query=303+Modern+Apartments,+Mali+Colony,+Rajarampuri,+Kolhapur+416008+Maharashtra" target="_blank">
                                 303 Modern Apartments, Mali Colony, Rajarampuri, Kolhapur 416008 Maharashtra 
@@ -40,17 +40,17 @@ function Footer() {
                         </li>
 
                         <li>
-                            <img className='footer-icon' src={Deskphone} alt='Company Logo' />
+                            <img className='footer-icon' src={Deskphone} alt='Ajinkya Infra telephone number' />
                             <span> <a href="tel:+0231- 4050473" >0231- 4050473 </a></span>
                         </li>
 
                         <li>
-                            <img className='footer-icon' src={Call} alt='Company Logo' />
+                            <img className='footer-icon' src={Call} alt='Call Ajinkya Infra' />
                             <span><a href="tel:+91 9373979779">+91 9373979779</a></span>
                         </li>
 
                         <li>
-                            <img className='footer-icon' src={Mail} alt='Company Logo' />
+                            <img className='footer-icon' src={Mail} alt='Contact Ajinkya Infra via email' />
                             <span>
                             <a href="mailto:info@ajinkyainfra.in?subject=Enquiry%20about%20solar%20System&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.">
                                 info@ajinkyainfra.in
@@ -58,7 +58,7 @@ function Footer() {
                                 </span>
                         </li>
                         <li>
-                            <img className='footer-icon flex-start'  src={Schedule} alt='Company Logo' />
+                            <img className='footer-icon flex-start'  src={Schedule} alt='Ajinkya Infra operating hours icon' />
                             <span>9.00 am - 6.00 pm  <br />Mon - Sat</span>
                         </li>
 
