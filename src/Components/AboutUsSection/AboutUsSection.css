@@ -21,7 +21,7 @@
     order: 1;
   }
 
-  .AboutUs-content h2 {
+  .AboutUs-content h1 {
     font-size: 24px;
    line-height: 1.4;
    margin-bottom: 20px;
@@ -62,7 +62,7 @@
         
       }
 
-      .AboutUs-content h2 {
+      .AboutUs-content h1 {
         font-size: 36px;
         margin-bottom: 20px;
         

@@ -32,22 +32,30 @@ function Footer() {
                     <ul>
                         <li>
                             <img className='footer-icon flex-start' src={Location} alt='Company Logo' />
-                            <span> 303 Modern Apartments, Mali Colony, Rajarampuri, Kolhapur 416008 Maharashtra </span>
+                            <span> 
+                            <a href="https://www.google.com/maps/search/?api=1&query=303+Modern+Apartments,+Mali+Colony,+Rajarampuri,+Kolhapur+416008+Maharashtra" target="_blank">
+                                303 Modern Apartments, Mali Colony, Rajarampuri, Kolhapur 416008 Maharashtra 
+                            </a>
+                                </span>
                         </li>
 
                         <li>
                             <img className='footer-icon' src={Deskphone} alt='Company Logo' />
-                            <span>0231- 4050473</span>
+                            <span> <a href="tel:+0231- 4050473" >0231- 4050473 </a></span>
                         </li>
 
                         <li>
                             <img className='footer-icon' src={Call} alt='Company Logo' />
-                            <span>+91 9373979779</span>
+                            <span><a href="tel:+91 9373979779">+91 9373979779</a></span>
                         </li>
 
                         <li>
                             <img className='footer-icon' src={Mail} alt='Company Logo' />
-                            <span>info@ajinkyainfra.in</span>
+                            <span>
+                            <a href="mailto:info@ajinkyainfra.in?subject=Enquiry%20about%20solar%20System&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.">
+                                info@ajinkyainfra.in
+                              </a>  
+                                </span>
                         </li>
                         <li>
                             <img className='footer-icon flex-start'  src={Schedule} alt='Company Logo' />

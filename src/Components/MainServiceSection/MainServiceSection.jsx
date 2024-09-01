@@ -3,7 +3,7 @@ import "./MainServiceSection.css"
 
 function MainServiceSection() {
     return (
-        <div className='main-service-section'>
+        <div className='main-service-section' id='service-section'>
             <section className='service-container'>
 
                 <div className='service-box-content service-box1'>

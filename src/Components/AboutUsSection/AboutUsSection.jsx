@@ -6,12 +6,12 @@ function AboutUsSection() {
     return (
       <section className='AboutUs'>
         <div className='AboutUs-content'>
-          <h2>About Ajinkya Infra</h2>
+          <h1>About Ajinkya Infra</h1>
           <p>Ajinkya Infra is your trusted partner for solar installations in Kolhapur. We provide sustainable, reliable energy solutions for homes and businesses. With a focus on quality and customer satisfaction, our expert team ensures every project is completed with precision.
           </p>
         </div>
         <div className='AboutUs-image'>
-          <img src={AboutUsImage} alt='Ajinkya Infra' />
+          <img src={AboutUsImage} alt='about Ajinkya Infra solar installation in kolhapur' />
         </div>
       </section>
     );

@@ -9,7 +9,7 @@ function OurServices() {
     <div className='our-service-page'>
       <ServiceHeroSection />
       <MainServiceSection />
-      <ServiceMaintenanceCard />
+      <ServiceMaintenanceCard id="maintenance-section" />
     </div>
   )
 }
