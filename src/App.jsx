@@ -6,6 +6,7 @@ import Home from "./pages/Home.jsx"
 import AboutUs from "./pages/AboutUs.jsx"
 import ContactUs from "./pages/ContactUs.jsx"
 import OurServices from "./pages/OurServices.jsx"
+import FloatingButton from "./Components/FloatingButton/FloatingButton.jsx"
 import './App.css'
 import Sitemap from "./pages/Sitemap.jsx"
 
@@ -21,6 +22,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar activePage={activePage} handleItemClick={handleItemClick} />
+        <FloatingButton />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />

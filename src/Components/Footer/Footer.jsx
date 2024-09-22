@@ -46,7 +46,9 @@ function Footer() {
 
                         <li>
                             <img className='footer-icon' src={Call} alt='Call Ajinkya Infra' />
-                            <span><a href="tel:+91 9373979779">+91 9373979779</a></span>
+                            <span><a href="tel:+91 9373979779">+91 9373979779 ,</a>
+                            <a href="tel:+91 9359945490">+91 9359945490</a>
+                            </span>
                         </li>
 
                         <li>
