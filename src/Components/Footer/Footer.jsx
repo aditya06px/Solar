@@ -71,8 +71,9 @@ function Footer() {
                 <div className='footer-quick-links'>
                     <h3> Quick Links </h3>
                     <ul>
+                    <NavLink to="/calculator"> 
                         <li>Solar Calculator</li>
-
+                     </NavLink>
                         <li>Client Titles</li>
                        <NavLink to="/contact"> 
                                 <li> Contact</li>

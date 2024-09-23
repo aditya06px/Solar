@@ -16,8 +16,8 @@
 
 .carousel-container {
   margin: 0 auto;
-  margin-top: 1rem;
-  width: 80%;
+  /* margin-top: 1rem; */
+  /* width: 80%; */
 }
 
 .carousel-container img {

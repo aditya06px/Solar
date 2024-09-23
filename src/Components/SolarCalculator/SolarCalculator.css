@@ -1,0 +1,215 @@
+  .calculator-container {
+      padding: 20px;
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      margin: 20px auto;
+      box-shadow: 
+    0 1px 2px rgba(139, 141, 157, 0.05),   
+    0 -1px 2px rgba(139, 141, 157, 0.05),  
+    1px 0 2px rgba(139, 141, 157, 0.05),   
+    -1px 0 2px rgba(139, 141, 157, 0.05),  
+    0 5px 10px rgba(65, 71, 108, 0.15);
+  }
+
+  .calculator-container h2 {
+    margin-bottom: 1.2rem;
+      text-align: center;
+      color: #002540;
+      font-size: 1.5rem;
+  }
+
+  .calculator-row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+  }
+
+  .calculator-row label {
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: white;
+      background: #F79E00;
+  }
+
+  .calculator-input,
+  .calculator-select {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #002540;
+      border-radius: 5px;
+      width: 100%;
+  }
+
+  .calculator-input:focus,
+  .calculator-select:focus {
+      outline: none;
+      border-color: #F79E00;
+  }
+
+  .calculator-button {
+      padding: 12px;
+      background-color: #F79E00;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+  }
+
+  .calculator-button:hover {
+      background-color: #e68900;
+  }
+
+
+  .calculator-container .error {
+      display: block;
+      color: #F79E00;
+      font-size: 0.9rem;
+      margin-top: .5em;
+  }
+
+  /* Result section */
+  .calculator-result {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f0f8ff;
+      border: 1px solid #002540;
+      border-radius: 5px;
+  }
+
+  .calculator-result h3 {
+      color: #002540;
+  }
+
+  .calculator-result p {
+      margin: 8px 0;
+      color: #333;
+  }
+
+  .calculator-result p strong {
+      color: #F79E00;
+  }
+
+  .custom-hr {
+      border: none;
+      height: 2px;
+      background-color: #002540;
+      margin: 20px 0;
+      width: 100%;
+  }
+
+
+  .calculator-container .break-line {
+      display: inline;
+  }
+
+  .calculator-container label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px;
+  }
+
+  .calculator-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #FFFFFF;
+    color: #002540;
+    border: 1px solid #002540;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.calculator-container select::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
+.calculator-container select:focus,
+.calculator-container select:hover {
+    outline: none;
+    border-color: #F79E00;
+}
+
+
+  @media (min-width: 768px) {
+      .calculator-container {
+          max-width: 500px;
+      }
+
+      .calculator-container h2 {
+        margin-bottom: 2rem;
+    }
+
+      .calculator-container .input-box-size {
+          display: block;
+          width: 60%;
+      }
+
+      .calculator-container .checkbox-text {
+          display: inline-block;
+          margin-left: 5px;
+      }
+
+      .calculator-row {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .calculator-row label {
+          width: 40%;
+          margin-bottom: 0;
+          font-size: 1rem;
+      }
+
+      .state-customer-row {
+          display: flex;
+          margin-bottom: 15px;
+      }
+
+      .state-customer-row .calculator-row {
+          width: 250px;
+      }
+
+      .state-customer-row div:first-child {
+          margin-right: 2rem;
+      }
+
+      .dropdown-flex {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+      }
+
+      .calculator-container .break-line {
+          display: block;
+      }
+
+      .calculator-container label {
+        padding: 2px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+      .calculator-container {
+          max-width: 700px;
+      }
+
+      .calculator-container h2 {
+          font-size: 2rem;
+      }
+
+      .error-dropdown {
+          margin-top: 5px;
+          margin-left: 0;
+      }
+  }

@@ -38,11 +38,8 @@ function Navbar({ activePage, handleItemClick }) {
 
     const downloadBrochure = async () => {
         try {
-            // Fetch the PDF file from the server
             const response = await fetch('/Brochure.pdf');
             const blob = await response.blob();
-
-            // Create a link element, use the blob, and trigger download
             const link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
             link.download = 'Brochure.pdf';
