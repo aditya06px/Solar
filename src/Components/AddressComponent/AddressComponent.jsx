@@ -29,7 +29,7 @@ function AddressComponent() {
 
         <li>
             <img className='address-icon' src={Mail} alt='Contact Ajinkya Infra via email' />
-            <p>office@ajinkyainfra.in</p>
+            <p>info@ajinkyainfra.in</p>
         </li>
         <li>
             <img className='address-icon '  src={Schedule} alt='Ajinkya Infra operating hours icon' />
