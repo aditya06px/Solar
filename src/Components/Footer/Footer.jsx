@@ -23,7 +23,7 @@ function Footer() {
                         sizes="(max-width: 480px) 100vw"
                         alt='Ajinkya Infra company logo'
                     />
-                    <p style={{textAlign: 'end' , fontSize: '15px'}}> by Ajinkya Enterprises </p>
+                <p style={{textAlign: 'center' , fontSize: '15px'}}> GSTIN: 27EKYPM1485F1ZH </p>
                 </div>
 
                  <div className='office-details'>
@@ -46,8 +46,8 @@ function Footer() {
 
                         <li>
                             <img className='footer-icon' src={Call} alt='Call Ajinkya Infra' />
-                            <span><a href="tel:+91 9373979779">+91 9373979779 ,</a>
-                            <a href="tel:+91 9359945490">+91 9359945490</a>
+                            <span><a className='footer-no' href="tel:+91 9373979779">+91 9373979779 </a>
+                            <a  href="tel:+91 9359945490">+91 9359945490</a>
                             </span>
                         </li>
 

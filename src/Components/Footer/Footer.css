@@ -74,6 +74,10 @@
     margin-top: 46px;
 }
 
+.footer-no{
+    margin-right: 4px;
+}
+
 @media (min-width: 968px) {
 
     /* Icons or Images Styling */
